@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(192, 188, 188);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+section .bigContainer {
+  height: 30rem;
+  width: 80rem;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+section .bigContainer .card-recommended {
+  width: 28rem;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  position: relative;
+  border: solid rgb(37, 37, 199) 2px;
+}
+section .bigContainer .card-recommended .recommended {
+  background-color: purple;
+  color: white;
+  width: 14rem;
+  height: 3rem;
+  border-radius: 5px;
+  position: absolute;
+  left: 24%;
+  top: -6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .bigContainer .card-recommended .recommended h1 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+section .bigContainer .card-recommended .title {
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 15rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .bigContainer .card-recommended .title h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 2.5rem;
+}
+section .bigContainer .card-recommended .title .h4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .bigContainer .card-recommended .title .h4 h4 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+section .bigContainer .card-recommended .title .h4 :nth-child(2) {
+  color: rgb(100, 99, 99);
+}
+section .bigContainer .card-recommended .pricecontainer {
+  position: absolute;
+  left: 22%;
+  top: 65%;
+  width: 15rem;
+  height: 7rem;
+}
+section .bigContainer .card-recommended .pricecontainer .price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .bigContainer .card-recommended .pricecontainer .price h2 {
+  margin-bottom: 1rem;
+}
+section .bigContainer .card-recommended .pricecontainer .price button {
+  width: 7rem;
+  background-color: rgb(51, 95, 153);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  border-radius: 5px;
+}
+section .bigContainer .card {
+  width: 25rem;
+  height: 89%;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  top: 5%;
+}
+section .bigContainer .card .title {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 15rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .bigContainer .card .title h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 2.5rem;
+}
+section .bigContainer .card .title .h4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .bigContainer .card .title .h4 h4 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+section .bigContainer .card .title .h4 :nth-child(2) {
+  color: rgb(100, 99, 99);
+}
+section .bigContainer .card .pricecontainer {
+  position: absolute;
+  left: 20%;
+  top: 65%;
+  width: 15rem;
+  height: 7rem;
+}
+section .bigContainer .card .pricecontainer .price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .bigContainer .card .pricecontainer .price h2 {
+  margin-bottom: 1rem;
+}
+section .bigContainer .card .pricecontainer .price button {
+  width: 7rem;
+  background-color: rgb(206, 201, 201);
+  font-weight: bold;
+  height: 2rem;
+  border-radius: 5px;
+}
